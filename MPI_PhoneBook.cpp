@@ -167,3 +167,8 @@ int main(int argc, char **argv) {
     MPI_Finalize();
     return 0;
 }
+
+/*
+mpic++ phone_book.cpp -o phone_book
+mpirun -n 4 ./phone_book input.txt 'TUMPA'
+*/
